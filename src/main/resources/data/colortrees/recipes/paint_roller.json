@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "x": {
+            "item": "minecraft:white_wool"
+        },
+        "y": {
+            "item": "minecraft:iron_ingot"
+        },
+        "z": {
+            "item": "minecraft:stick"
+        }
+    },
+    "pattern": [
+        "x",
+        "y",
+        "z"
+    ],
+    "result": {
+        "item": "colortrees:paint_roller"
+    }
+}

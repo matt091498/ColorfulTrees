@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "colortrees:black_oak_leaves",
+        "colortrees:red_oak_leaves",
+        "colortrees:green_oak_leaves",
+        "colortrees:brown_oak_leaves",
+        "colortrees:blue_oak_leaves",
+        "colortrees:purple_oak_leaves",
+        "colortrees:cyan_oak_leaves",
+        "colortrees:light_gray_oak_leaves",
+        "colortrees:gray_oak_leaves",
+        "colortrees:pink_oak_leaves",
+        "colortrees:lime_oak_leaves",
+        "colortrees:yellow_oak_leaves",
+        "colortrees:light_blue_oak_leaves",
+        "colortrees:magenta_oak_leaves",
+        "colortrees:orange_oak_leaves",
+        "colortrees:white_oak_leaves"
+    ]
+}

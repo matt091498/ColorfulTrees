@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/leaves",
+    "textures": {
+        "all": "colortrees:block/brown_oak_leaves"
+    }
+}

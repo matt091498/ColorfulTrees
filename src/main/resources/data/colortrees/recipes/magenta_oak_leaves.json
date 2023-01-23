@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "colortrees:magenta_paint_roller"
+        },
+        {
+            "item": "minecraft:oak_leaves"
+        }
+    ],
+    "result": {
+        "item": "colortrees:magenta_oak_leaves"
+    }
+}

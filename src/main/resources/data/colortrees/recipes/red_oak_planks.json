@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "colortrees:red_paint_roller"
+        },
+        {
+            "item": "minecraft:oak_planks"
+        }
+    ],
+    "result": {
+        "item": "colortrees:red_oak_planks"
+    }
+}

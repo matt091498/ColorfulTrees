@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "colortrees:lime_paint"
+        },
+        {
+            "item": "colortrees:paint_roller"
+        }
+    ],
+    "result": {
+        "item": "colortrees:lime_paint_roller"
+    }
+}

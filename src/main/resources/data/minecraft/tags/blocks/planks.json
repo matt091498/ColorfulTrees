@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "colortrees:black_oak_planks",
+        "colortrees:red_oak_planks",
+        "colortrees:green_oak_planks",
+        "colortrees:brown_oak_planks",
+        "colortrees:blue_oak_planks",
+        "colortrees:purple_oak_planks",
+        "colortrees:cyan_oak_planks",
+        "colortrees:light_gray_oak_planks",
+        "colortrees:gray_oak_planks",
+        "colortrees:pink_oak_planks",
+        "colortrees:lime_oak_planks",
+        "colortrees:yellow_oak_planks",
+        "colortrees:light_blue_oak_planks",
+        "colortrees:magenta_oak_planks",
+        "colortrees:orange_oak_planks",
+        "colortrees:white_oak_planks"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "replace": false,
+    "values": [
+        "colortrees:black_oak_log",
+        "colortrees:red_oak_log",
+        "colortrees:green_oak_log",
+        "colortrees:brown_oak_log",
+        "colortrees:blue_oak_log",
+        "colortrees:purple_oak_log",
+        "colortrees:cyan_oak_log",
+        "colortrees:light_gray_oak_log",
+        "colortrees:gray_oak_log",
+        "colortrees:pink_oak_log",
+        "colortrees:lime_oak_log",
+        "colortrees:yellow_oak_log",
+        "colortrees:light_blue_oak_log",
+        "colortrees:magenta_oak_log",
+        "colortrees:orange_oak_log",
+        "colortrees:white_oak_log",
+
+        "colortrees:black_birch_log",
+        "colortrees:red_birch_log",
+        "colortrees:green_birch_log",
+        "colortrees:brown_birch_log",
+        "colortrees:blue_birch_log",
+        "colortrees:purple_birch_log",
+        "colortrees:cyan_birch_log",
+        "colortrees:light_gray_birch_log",
+        "colortrees:gray_birch_log",
+        "colortrees:pink_birch_log",
+        "colortrees:lime_birch_log",
+        "colortrees:yellow_birch_log",
+        "colortrees:light_blue_birch_log",
+        "colortrees:magenta_birch_log",
+        "colortrees:orange_birch_log",
+        "colortrees:white_birch_log"
+    ]
+}

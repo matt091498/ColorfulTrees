@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "colortrees:block/cyan_oak_planks"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "colortrees:blue_paint"
+        },
+        {
+            "item": "colortrees:paint_roller"
+        }
+    ],
+    "result": {
+        "item": "colortrees:blue_paint_roller"
+    }
+}

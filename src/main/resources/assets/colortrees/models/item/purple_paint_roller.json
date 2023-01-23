@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "colortrees:item/purple_paint_roller"
+    }
+}

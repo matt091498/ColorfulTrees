@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "colortrees:white_paint_roller"
+        },
+        {
+            "item": "minecraft:oak_leaves"
+        }
+    ],
+    "result": {
+        "item": "colortrees:white_oak_leaves"
+    }
+}

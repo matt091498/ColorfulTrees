@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "colortrees:black_birch_log",
+        "colortrees:red_birch_log",
+        "colortrees:green_birch_log",
+        "colortrees:brown_birch_log",
+        "colortrees:blue_birch_log",
+        "colortrees:purple_birch_log",
+        "colortrees:cyan_birch_log",
+        "colortrees:light_gray_birch_log",
+        "colortrees:gray_birch_log",
+        "colortrees:pink_birch_log",
+        "colortrees:lime_birch_log",
+        "colortrees:yellow_birch_log",
+        "colortrees:light_blue_birch_log",
+        "colortrees:magenta_birch_log",
+        "colortrees:orange_birch_log",
+        "colortrees:white_birch_log"
+    ]
+}
