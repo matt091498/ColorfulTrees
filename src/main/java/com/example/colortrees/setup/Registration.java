@@ -5,6 +5,7 @@ import com.example.colortrees.custom_item.paint_roller_item;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LeavesBlock;
@@ -31,8 +32,6 @@ public class Registration {
 
     public static final BlockBehaviour.Properties WOOD_PROPERTIES = BlockBehaviour.Properties.of(Material.WOOD)
         .strength(3f);
-    public static final BlockBehaviour.Properties LEAF_PROPERTIES = BlockBehaviour.Properties.of(Material.LEAVES)
-        .sound(SoundType.GRASS);
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
     public static final Item.Properties ROLLER_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP)
         .durability(64);
@@ -140,37 +139,53 @@ public class Registration {
     public static final RegistryObject<Item> WHITE_PLANKS_ITEM = fromBlock(WHITE_PLANKS);
 
     // Registration for Colored Oak Leaves
-    public static final RegistryObject<LeavesBlock> BLACK_OAK_LEAVES = BLOCKS.register("black_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> BLACK_OAK_LEAVES = BLOCKS.register("black_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> BLACK_OAK_LEAVES_ITEM = fromBlock(BLACK_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> RED_OAK_LEAVES = BLOCKS.register("red_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> RED_OAK_LEAVES = BLOCKS.register("red_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> RED_OAK_LEAVES_ITEM = fromBlock(RED_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> GREEN_OAK_LEAVES = BLOCKS.register("green_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> GREEN_OAK_LEAVES = BLOCKS.register("green_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> GREEN_OAK_LEAVES_ITEM = fromBlock(GREEN_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> BROWN_OAK_LEAVES = BLOCKS.register("brown_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> BROWN_OAK_LEAVES = BLOCKS.register("brown_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> BROWN_OAK_LEAVES_ITEM = fromBlock(BROWN_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> BLUE_OAK_LEAVES = BLOCKS.register("blue_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> BLUE_OAK_LEAVES = BLOCKS.register("blue_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> BLUE_OAK_LEAVES_ITEM = fromBlock(BLUE_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> PURPLE_OAK_LEAVES = BLOCKS.register("purple_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> PURPLE_OAK_LEAVES = BLOCKS.register("purple_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> PURPLE_OAK_LEAVES_ITEM = fromBlock(PURPLE_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> CYAN_OAK_LEAVES = BLOCKS.register("cyan_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> CYAN_OAK_LEAVES = BLOCKS.register("cyan_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> CYAN_OAK_LEAVES_ITEM = fromBlock(CYAN_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> LIGHT_GRAY_OAK_LEAVES = BLOCKS.register("light_gray_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> LIGHT_GRAY_OAK_LEAVES = BLOCKS.register("light_gray_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> LIGHT_GRAY_OAK_LEAVES_ITEM = fromBlock(LIGHT_GRAY_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> GRAY_OAK_LEAVES = BLOCKS.register("gray_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> GRAY_OAK_LEAVES = BLOCKS.register("gray_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> GRAY_OAK_LEAVES_ITEM = fromBlock(GRAY_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> PINK_OAK_LEAVES = BLOCKS.register("pink_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> PINK_OAK_LEAVES = BLOCKS.register("pink_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> PINK_OAK_LEAVES_ITEM = fromBlock(PINK_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> LIME_OAK_LEAVES = BLOCKS.register("lime_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> LIME_OAK_LEAVES = BLOCKS.register("lime_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> LIME_OAK_LEAVES_ITEM = fromBlock(LIME_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> YELLOW_OAK_LEAVES = BLOCKS.register("yellow_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> YELLOW_OAK_LEAVES = BLOCKS.register("yellow_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> YELLOW_OAK_LEAVES_ITEM = fromBlock(YELLOW_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> LIGHT_BLUE_OAK_LEAVES = BLOCKS.register("light_blue_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> LIGHT_BLUE_OAK_LEAVES = BLOCKS.register("light_blue_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> LIGHT_BLUE_OAK_LEAVES_ITEM = fromBlock(LIGHT_BLUE_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> MAGENTA_OAK_LEAVES = BLOCKS.register("magenta_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> MAGENTA_OAK_LEAVES = BLOCKS.register("magenta_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> MAGENTA_OAK_LEAVES_ITEM = fromBlock(MAGENTA_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> ORANGE_OAK_LEAVES = BLOCKS.register("orange_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> ORANGE_OAK_LEAVES = BLOCKS.register("orange_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> ORANGE_OAK_LEAVES_ITEM = fromBlock(ORANGE_OAK_LEAVES);
-    public static final RegistryObject<LeavesBlock> WHITE_OAK_LEAVES = BLOCKS.register("white_oak_leaves", () -> new LeavesBlock(LEAF_PROPERTIES));
+    public static final RegistryObject<LeavesBlock> WHITE_OAK_LEAVES = BLOCKS.register("white_oak_leaves", 
+        () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> WHITE_OAK_LEAVES_ITEM = fromBlock(WHITE_OAK_LEAVES);
 
     // Registration for Paint Items
