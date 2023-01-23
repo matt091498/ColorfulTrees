@@ -5,6 +5,8 @@ import com.example.colortrees.setup.Registration;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
+
+
 public class paint_roller_item extends Item {
 
     public paint_roller_item(Properties r_properties) {
@@ -17,12 +19,12 @@ public class paint_roller_item extends Item {
     }
     
     @Override
-    public boolean hasContainerItem(ItemStack stack) {
+    public boolean hasCraftingRemainingItem(ItemStack stack) {
         return true;
     }
 
     @Override
-    public ItemStack getContainerItem(ItemStack stack) {
+    public ItemStack getCraftingRemainingItem(ItemStack stack) {
         var res = stack.copy();
 
         res.setDamageValue(res.getDamageValue() + 1);
