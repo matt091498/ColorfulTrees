@@ -34,6 +34,8 @@ import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Map;
 
+// Credits to McJty for this file. Used in his modding tutorials. Go check out his mods, especially the RFTools suite.
+
 public abstract class BaseLootTableProvider extends LootTableProvider {
 
     private static final Logger LOGGER = LogManager.getLogger();
