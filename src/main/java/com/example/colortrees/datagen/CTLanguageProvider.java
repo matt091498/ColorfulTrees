@@ -3,15 +3,15 @@ package com.example.colortrees.datagen;
 import com.example.colortrees.colortrees;
 import com.example.colortrees.setup.Registration;
 
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.LanguageProvider;
 
 import static com.example.colortrees.setup.ModSetup.TAB_NAME;
 
 public class CTLanguageProvider extends LanguageProvider {
 
-    public CTLanguageProvider(DataGenerator generator, String locale) {
-        super(generator, colortrees.MODID, locale);
+    public CTLanguageProvider(PackOutput packOutput, String locale) {
+        super(packOutput, colortrees.MODID, locale);
     }
 
     @Override
