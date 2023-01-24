@@ -3,14 +3,14 @@ package com.example.colortrees.datagen;
 import com.example.colortrees.colortrees;
 import com.example.colortrees.setup.Registration;
 
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class CTItemModels extends ItemModelProvider {
 
-    public CTItemModels(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator, colortrees.MODID, helper);
+    public CTItemModels(PackOutput packOutput, ExistingFileHelper helper) {
+        super(packOutput, colortrees.MODID, helper);
     }
 
     @Override
