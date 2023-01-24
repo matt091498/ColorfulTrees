@@ -3,14 +3,14 @@ package com.example.colortrees.datagen;
 import com.example.colortrees.colortrees;
 import com.example.colortrees.setup.Registration;
 
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class CTBlockStates extends BlockStateProvider {
     
-    public CTBlockStates(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator, colortrees.MODID, helper);
+    public CTBlockStates(PackOutput packOutput, ExistingFileHelper helper) {
+        super(packOutput, colortrees.MODID, helper);
     }
 
     @Override
