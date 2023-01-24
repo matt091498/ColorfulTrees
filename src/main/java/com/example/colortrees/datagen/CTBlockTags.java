@@ -3,19 +3,22 @@ package com.example.colortrees.datagen;
 import com.example.colortrees.colortrees;
 import com.example.colortrees.setup.Registration;
 
-import net.minecraft.data.DataGenerator;
-import net.minecraft.data.tags.BlockTagsProvider;
+import net.minecraft.data.PackOutput;
+import net.minecraft.core.HolderLookup;
+import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraft.tags.BlockTags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
+import java.util.concurrent.CompletableFuture;
+
 public class CTBlockTags extends BlockTagsProvider {
     
-    public CTBlockTags(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator, colortrees.MODID, helper);
+    public CTBlockTags(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> lookupProvider, ExistingFileHelper helper) {
+        super(packOutput, lookupProvider, colortrees.MODID, helper);
     }
 
     @Override
-    protected void addTags() {
+    protected void addTags(HolderLookup.Provider pProvider) {
         tag(BlockTags.MINEABLE_WITH_AXE)
             .add(Registration.BLACK_OAK_LOG.get())
             .add(Registration.RED_OAK_LOG.get())
