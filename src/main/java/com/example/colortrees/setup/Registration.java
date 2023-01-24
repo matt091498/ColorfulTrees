@@ -32,8 +32,8 @@ public class Registration {
 
     public static final BlockBehaviour.Properties WOOD_PROPERTIES = BlockBehaviour.Properties.of(Material.WOOD)
         .strength(3f);
-    public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
-    public static final Item.Properties ROLLER_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP)
+    public static final Item.Properties ITEM_PROPERTIES = new Item.Properties();
+    public static final Item.Properties ROLLER_PROPERTIES = new Item.Properties()
         .durability(64);
 
     // Registration for Colored Oak Logs
@@ -209,37 +209,37 @@ public class Registration {
     // Registration for Paint Roller items
     public static final RegistryObject<Item> BLANK_PAINT_ROLLER = ITEMS.register("paint_roller", () -> new Item(ITEM_PROPERTIES));
     public static final RegistryObject<Item> BLACK_PAINT_ROLLER = ITEMS.register("black_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> RED_PAINT_ROLLER = ITEMS.register("red_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> GREEN_PAINT_ROLLER = ITEMS.register("green_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> BROWN_PAINT_ROLLER = ITEMS.register("brown_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> BLUE_PAINT_ROLLER = ITEMS.register("blue_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> PURPLE_PAINT_ROLLER = ITEMS.register("purple_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> CYAN_PAINT_ROLLER = ITEMS.register("cyan_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> LIGHT_GRAY_PAINT_ROLLER = ITEMS.register("light_gray_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> GRAY_PAINT_ROLLER = ITEMS.register("gray_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> PINK_PAINT_ROLLER = ITEMS.register("pink_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> LIME_PAINT_ROLLER = ITEMS.register("lime_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> YELLOW_PAINT_ROLLER = ITEMS.register("yellow_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> LIGHT_BLUE_PAINT_ROLLER = ITEMS.register("light_blue_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> MAGENTA_PAINT_ROLLER = ITEMS.register("magenta_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> ORANGE_PAINT_ROLLER = ITEMS.register("orange_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
     public static final RegistryObject<Item> WHITE_PAINT_ROLLER = ITEMS.register("white_paint_roller", 
-        () -> new paint_roller_item(new Item.Properties().tab(ModSetup.ITEM_GROUP).durability(64)));
+        () -> new paint_roller_item(new Item.Properties().durability(64)));
 
     // Registration for Block Items
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
