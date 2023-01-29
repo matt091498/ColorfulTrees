@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "colortrees:block/white_oak_planks",
+    "top": "colortrees:block/white_oak_planks",
+    "side": "colortrees:block/white_oak_planks"
+  }
+}
