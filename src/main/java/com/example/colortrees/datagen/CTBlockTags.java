@@ -69,7 +69,24 @@ public class CTBlockTags extends BlockTagsProvider {
             .add(Registration.LIGHT_BLUE_PLANKS.get())
             .add(Registration.MAGENTA_PLANKS.get())
             .add(Registration.ORANGE_PLANKS.get())
-            .add(Registration.WHITE_PLANKS.get());
+            .add(Registration.WHITE_PLANKS.get())
+
+            .add(Registration.BLACK_STAIRS.get())
+            .add(Registration.RED_STAIRS.get())
+            .add(Registration.GREEN_STAIRS.get())
+            .add(Registration.BROWN_STAIRS.get())
+            .add(Registration.BLUE_STAIRS.get())
+            .add(Registration.PURPLE_STAIRS.get())
+            .add(Registration.CYAN_STAIRS.get())
+            .add(Registration.LIGHT_GRAY_STAIRS.get())
+            .add(Registration.GRAY_STAIRS.get())
+            .add(Registration.PINK_STAIRS.get())
+            .add(Registration.LIME_STAIRS.get())
+            .add(Registration.YELLOW_STAIRS.get())
+            .add(Registration.LIGHT_BLUE_STAIRS.get())
+            .add(Registration.MAGENTA_STAIRS.get())
+            .add(Registration.ORANGE_STAIRS.get())
+            .add(Registration.WHITE_STAIRS.get());
 
         tag(BlockTags.MINEABLE_WITH_HOE)
             .add(Registration.BLACK_OAK_LEAVES.get())
@@ -248,6 +265,42 @@ public class CTBlockTags extends BlockTagsProvider {
             .add(Registration.MAGENTA_OAK_LEAVES.get())
             .add(Registration.ORANGE_OAK_LEAVES.get())
             .add(Registration.WHITE_OAK_LEAVES.get());
+
+        tag(BlockTags.STAIRS)
+            .add(Registration.BLACK_STAIRS.get())
+            .add(Registration.RED_STAIRS.get())
+            .add(Registration.GREEN_STAIRS.get())
+            .add(Registration.BROWN_STAIRS.get())
+            .add(Registration.BLUE_STAIRS.get())
+            .add(Registration.PURPLE_STAIRS.get())
+            .add(Registration.CYAN_STAIRS.get())
+            .add(Registration.LIGHT_GRAY_STAIRS.get())
+            .add(Registration.GRAY_STAIRS.get())
+            .add(Registration.PINK_STAIRS.get())
+            .add(Registration.LIME_STAIRS.get())
+            .add(Registration.YELLOW_STAIRS.get())
+            .add(Registration.LIGHT_BLUE_STAIRS.get())
+            .add(Registration.MAGENTA_STAIRS.get())
+            .add(Registration.ORANGE_STAIRS.get())
+            .add(Registration.WHITE_STAIRS.get());
+
+        tag(BlockTags.WOODEN_STAIRS)
+            .add(Registration.BLACK_STAIRS.get())
+            .add(Registration.RED_STAIRS.get())
+            .add(Registration.GREEN_STAIRS.get())
+            .add(Registration.BROWN_STAIRS.get())
+            .add(Registration.BLUE_STAIRS.get())
+            .add(Registration.PURPLE_STAIRS.get())
+            .add(Registration.CYAN_STAIRS.get())
+            .add(Registration.LIGHT_GRAY_STAIRS.get())
+            .add(Registration.GRAY_STAIRS.get())
+            .add(Registration.PINK_STAIRS.get())
+            .add(Registration.LIME_STAIRS.get())
+            .add(Registration.YELLOW_STAIRS.get())
+            .add(Registration.LIGHT_BLUE_STAIRS.get())
+            .add(Registration.MAGENTA_STAIRS.get())
+            .add(Registration.ORANGE_STAIRS.get())
+            .add(Registration.WHITE_STAIRS.get());
     }
 
     @Override

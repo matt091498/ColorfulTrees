@@ -5,10 +5,7 @@ import com.example.colortrees.colortrees;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
-import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -91,6 +88,23 @@ public class ModSetup {
                     populator.accept(Registration.MAGENTA_OAK_LEAVES.get());
                     populator.accept(Registration.ORANGE_OAK_LEAVES.get());
                     populator.accept(Registration.WHITE_OAK_LEAVES.get());
+
+                    populator.accept(Registration.BLACK_STAIRS.get());
+                    populator.accept(Registration.RED_STAIRS.get());
+                    populator.accept(Registration.GREEN_STAIRS.get());
+                    populator.accept(Registration.BROWN_STAIRS.get());
+                    populator.accept(Registration.BLUE_STAIRS.get());
+                    populator.accept(Registration.PURPLE_STAIRS.get());
+                    populator.accept(Registration.CYAN_STAIRS.get());
+                    populator.accept(Registration.LIGHT_GRAY_STAIRS.get());
+                    populator.accept(Registration.GRAY_STAIRS.get());
+                    populator.accept(Registration.PINK_STAIRS.get());
+                    populator.accept(Registration.LIME_STAIRS.get());
+                    populator.accept(Registration.YELLOW_STAIRS.get());
+                    populator.accept(Registration.LIGHT_BLUE_STAIRS.get());
+                    populator.accept(Registration.MAGENTA_STAIRS.get());
+                    populator.accept(Registration.ORANGE_STAIRS.get());
+                    populator.accept(Registration.WHITE_STAIRS.get());
 
                     populator.accept(Registration.BLACK_PAINT_ITEM.get());
                     populator.accept(Registration.RED_PAINT_ITEM.get());

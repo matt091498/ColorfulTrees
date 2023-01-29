@@ -50,6 +50,23 @@
         "colortrees:light_blue_oak_planks",
         "colortrees:magenta_oak_planks",
         "colortrees:orange_oak_planks",
-        "colortrees:white_oak_planks"
+        "colortrees:white_oak_planks",
+
+        "colortrees:black_stairs",
+        "colortrees:red_stairs",
+        "colortrees:green_stairs",
+        "colortrees:brown_stairs",
+        "colortrees:blue_stairs",
+        "colortrees:purple_stairs",
+        "colortrees:cyan_stairs",
+        "colortrees:light_gray_stairs",
+        "colortrees:gray_stairs",
+        "colortrees:pink_stairs",
+        "colortrees:lime_stairs",
+        "colortrees:yellow_stairs",
+        "colortrees:light_blue_stairs",
+        "colortrees:magenta_stairs",
+        "colortrees:orange_stairs",
+        "colortrees:white_stairs"
     ]
 }
