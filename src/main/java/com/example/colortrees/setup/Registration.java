@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.RotatedPillarBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.LeavesBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -187,6 +187,71 @@ public class Registration {
     public static final RegistryObject<LeavesBlock> WHITE_OAK_LEAVES = BLOCKS.register("white_oak_leaves", 
         () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistryObject<Item> WHITE_OAK_LEAVES_ITEM = fromBlock(WHITE_OAK_LEAVES);
+
+    // Registration for Colored Wood Stairs
+    public static final RegistryObject<StairBlock> BLACK_STAIRS = BLOCKS.register("black_stairs", 
+        () -> new StairBlock(() -> Registration.BLACK_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> BLACK_STAIRS_ITEM = fromBlock(BLACK_STAIRS);
+
+    public static final RegistryObject<StairBlock> RED_STAIRS = BLOCKS.register("red_stairs", 
+        () -> new StairBlock(() -> Registration.RED_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> RED_STAIRS_ITEM = fromBlock(RED_STAIRS);
+
+    public static final RegistryObject<StairBlock> GREEN_STAIRS = BLOCKS.register("green_stairs", 
+        () -> new StairBlock(() -> Registration.GREEN_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> GREEN_STAIRS_ITEM = fromBlock(GREEN_STAIRS);
+
+    public static final RegistryObject<StairBlock> BROWN_STAIRS = BLOCKS.register("brown_stairs", 
+        () -> new StairBlock(() -> Registration.BROWN_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> BROWN_STAIRS_ITEM = fromBlock(BROWN_STAIRS);
+
+    public static final RegistryObject<StairBlock> BLUE_STAIRS = BLOCKS.register("blue_stairs", 
+        () -> new StairBlock(() -> Registration.BLUE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> BLUE_STAIRS_ITEM = fromBlock(BLUE_STAIRS);
+
+    public static final RegistryObject<StairBlock> PURPLE_STAIRS = BLOCKS.register("purple_stairs", 
+        () -> new StairBlock(() -> Registration.PURPLE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> PURPLE_STAIRS_ITEM = fromBlock(PURPLE_STAIRS);
+
+    public static final RegistryObject<StairBlock> CYAN_STAIRS = BLOCKS.register("cyan_stairs", 
+        () -> new StairBlock(() -> Registration.CYAN_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> CYAN_STAIRS_ITEM = fromBlock(CYAN_STAIRS);
+
+    public static final RegistryObject<StairBlock> LIGHT_GRAY_STAIRS = BLOCKS.register("light_gray_stairs", 
+        () -> new StairBlock(() -> Registration.LIGHT_GRAY_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> LIGHT_GRAY_STAIRS_ITEM = fromBlock(LIGHT_GRAY_STAIRS);
+
+    public static final RegistryObject<StairBlock> GRAY_STAIRS = BLOCKS.register("gray_stairs", 
+        () -> new StairBlock(() -> Registration.GRAY_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> GRAY_STAIRS_ITEM = fromBlock(GRAY_STAIRS);
+
+    public static final RegistryObject<StairBlock> PINK_STAIRS = BLOCKS.register("pink_stairs", 
+        () -> new StairBlock(() -> Registration.PINK_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> PINK_STAIRS_ITEM = fromBlock(PINK_STAIRS);
+
+    public static final RegistryObject<StairBlock> LIME_STAIRS = BLOCKS.register("lime_stairs", 
+        () -> new StairBlock(() -> Registration.LIME_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> LIME_STAIRS_ITEM = fromBlock(LIME_STAIRS);
+
+    public static final RegistryObject<StairBlock> YELLOW_STAIRS = BLOCKS.register("yellow_stairs", 
+        () -> new StairBlock(() -> Registration.YELLOW_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> YELLOW_STAIRS_ITEM = fromBlock(YELLOW_STAIRS);
+
+    public static final RegistryObject<StairBlock> LIGHT_BLUE_STAIRS = BLOCKS.register("light_blue_stairs", 
+        () -> new StairBlock(() -> Registration.LIGHT_BLUE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> LIGHT_BLUE_STAIRS_ITEM = fromBlock(LIGHT_BLUE_STAIRS);
+
+    public static final RegistryObject<StairBlock> MAGENTA_STAIRS = BLOCKS.register("magenta_stairs", 
+        () -> new StairBlock(() -> Registration.MAGENTA_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> MAGENTA_STAIRS_ITEM = fromBlock(MAGENTA_STAIRS);
+
+    public static final RegistryObject<StairBlock> ORANGE_STAIRS = BLOCKS.register("orange_stairs", 
+        () -> new StairBlock(() -> Registration.ORANGE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> ORANGE_STAIRS_ITEM = fromBlock(ORANGE_STAIRS);
+
+    public static final RegistryObject<StairBlock> WHITE_STAIRS = BLOCKS.register("white_stairs", 
+        () -> new StairBlock(() -> Registration.WHITE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)));
+    public static final RegistryObject<Item> WHITE_STAIRS_ITEM = fromBlock(WHITE_STAIRS);
 
     // Registration for Paint Items
     public static final RegistryObject<Item> BLACK_PAINT_ITEM = ITEMS.register("black_paint", () -> new Item(ITEM_PROPERTIES));
