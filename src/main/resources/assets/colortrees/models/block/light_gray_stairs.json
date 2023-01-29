@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "colortrees:block/light_gray_oak_planks",
+    "top": "colortrees:block/light_gray_oak_planks",
+    "side": "colortrees:block/light_gray_oak_planks"
+  }
+}
