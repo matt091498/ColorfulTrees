@@ -84,5 +84,23 @@ public class CTLootTables extends BaseLootTableProvider {
         lootTables.put(Registration.MAGENTA_OAK_LEAVES.get(), createSimpleTable("magenta_oak_leaves", Registration.MAGENTA_OAK_LEAVES.get()));
         lootTables.put(Registration.ORANGE_OAK_LEAVES.get(), createSimpleTable("orange_oak_leaves", Registration.ORANGE_OAK_LEAVES.get()));
         lootTables.put(Registration.WHITE_OAK_LEAVES.get(), createSimpleTable("white_oak_leaves", Registration.WHITE_OAK_LEAVES.get()));
+
+        // Loot tables for Colored Stairs
+        lootTables.put(Registration.BLACK_STAIRS.get(), createSimpleTable("black_stairs", Registration.BLACK_STAIRS.get()));
+        lootTables.put(Registration.RED_STAIRS.get(), createSimpleTable("red_stairs", Registration.RED_STAIRS.get()));
+        lootTables.put(Registration.GREEN_STAIRS.get(), createSimpleTable("green_stairs", Registration.GREEN_STAIRS.get()));
+        lootTables.put(Registration.BROWN_STAIRS.get(), createSimpleTable("brown_stairs", Registration.BROWN_STAIRS.get()));
+        lootTables.put(Registration.BLUE_STAIRS.get(), createSimpleTable("blue_stairs", Registration.BLUE_STAIRS.get()));
+        lootTables.put(Registration.PURPLE_STAIRS.get(), createSimpleTable("purple_stairs", Registration.PURPLE_STAIRS.get()));
+        lootTables.put(Registration.CYAN_STAIRS.get(), createSimpleTable("cyan_stairs", Registration.CYAN_STAIRS.get()));
+        lootTables.put(Registration.LIGHT_GRAY_STAIRS.get(), createSimpleTable("light_gray_stairs", Registration.LIGHT_GRAY_STAIRS.get()));
+        lootTables.put(Registration.GRAY_STAIRS.get(), createSimpleTable("gray_stairs", Registration.GRAY_STAIRS.get()));
+        lootTables.put(Registration.PINK_STAIRS.get(), createSimpleTable("pink_stairs", Registration.PINK_STAIRS.get()));
+        lootTables.put(Registration.LIME_STAIRS.get(), createSimpleTable("lime_stairs", Registration.LIME_STAIRS.get()));
+        lootTables.put(Registration.YELLOW_STAIRS.get(), createSimpleTable("yellow_stairs", Registration.YELLOW_STAIRS.get()));
+        lootTables.put(Registration.LIGHT_BLUE_STAIRS.get(), createSimpleTable("light_blue_stairs", Registration.LIGHT_BLUE_STAIRS.get()));
+        lootTables.put(Registration.MAGENTA_STAIRS.get(), createSimpleTable("magenta_stairs", Registration.MAGENTA_STAIRS.get()));
+        lootTables.put(Registration.ORANGE_STAIRS.get(), createSimpleTable("orange_stairs", Registration.ORANGE_STAIRS.get()));
+        lootTables.put(Registration.WHITE_STAIRS.get(), createSimpleTable("white_stairs", Registration.WHITE_STAIRS.get()));
     }
 }

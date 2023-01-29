@@ -83,6 +83,23 @@ public class CTItemModels extends ItemModelProvider {
         withExistingParent(Registration.ORANGE_OAK_LEAVES_ITEM.getId().getPath(), modLoc("block/orange_oak_leaves"));
         withExistingParent(Registration.WHITE_OAK_LEAVES_ITEM.getId().getPath(), modLoc("block/white_oak_leaves"));
 
+        withExistingParent(Registration.BLACK_STAIRS_ITEM.getId().getPath(), modLoc("block/black_oak_planks"));
+        withExistingParent(Registration.RED_STAIRS_ITEM.getId().getPath(), modLoc("block/red_oak_planks"));
+        withExistingParent(Registration.GREEN_STAIRS_ITEM.getId().getPath(), modLoc("block/green_oak_planks"));
+        withExistingParent(Registration.BROWN_STAIRS_ITEM.getId().getPath(), modLoc("block/brown_oak_planks"));
+        withExistingParent(Registration.BLUE_STAIRS_ITEM.getId().getPath(), modLoc("block/blue_oak_planks"));
+        withExistingParent(Registration.PURPLE_STAIRS_ITEM.getId().getPath(), modLoc("block/purple_oak_planks"));
+        withExistingParent(Registration.CYAN_STAIRS_ITEM.getId().getPath(), modLoc("block/cyan_oak_planks"));
+        withExistingParent(Registration.LIGHT_GRAY_STAIRS_ITEM.getId().getPath(), modLoc("block/light_gray_oak_planks"));
+        withExistingParent(Registration.GRAY_STAIRS_ITEM.getId().getPath(), modLoc("block/gray_oak_planks"));
+        withExistingParent(Registration.PINK_STAIRS_ITEM.getId().getPath(), modLoc("block/pink_oak_planks"));
+        withExistingParent(Registration.LIME_STAIRS_ITEM.getId().getPath(), modLoc("block/lime_oak_planks"));
+        withExistingParent(Registration.YELLOW_STAIRS_ITEM.getId().getPath(), modLoc("block/yellow_oak_planks"));
+        withExistingParent(Registration.LIGHT_BLUE_STAIRS_ITEM.getId().getPath(), modLoc("block/light_blue_oak_planks"));
+        withExistingParent(Registration.MAGENTA_STAIRS_ITEM.getId().getPath(), modLoc("block/magenta_oak_planks"));
+        withExistingParent(Registration.ORANGE_STAIRS_ITEM.getId().getPath(), modLoc("block/orange_oak_planks"));
+        withExistingParent(Registration.WHITE_STAIRS_ITEM.getId().getPath(), modLoc("block/white_oak_planks"));
+
         singleTexture(Registration.BLACK_PAINT_ITEM.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/black_paint"));
         singleTexture(Registration.RED_PAINT_ITEM.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/red_paint"));
         singleTexture(Registration.GREEN_PAINT_ITEM.getId().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/green_paint"));
@@ -117,5 +134,7 @@ public class CTItemModels extends ItemModelProvider {
         singleTexture(Registration.MAGENTA_PAINT_ROLLER.getId().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/magenta_paint_roller"));
         singleTexture(Registration.ORANGE_PAINT_ROLLER.getId().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/orange_paint_roller"));
         singleTexture(Registration.WHITE_PAINT_ROLLER.getId().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/white_paint_roller"));
+
+        
     }   
 }
