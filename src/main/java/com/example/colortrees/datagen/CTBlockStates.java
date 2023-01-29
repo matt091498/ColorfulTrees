@@ -82,5 +82,22 @@ public class CTBlockStates extends BlockStateProvider {
         simpleBlock(Registration.MAGENTA_OAK_LEAVES.get());
         simpleBlock(Registration.ORANGE_OAK_LEAVES.get());
         simpleBlock(Registration.WHITE_OAK_LEAVES.get());
+
+        stairsBlock(Registration.BLACK_STAIRS.get(), blockTexture(Registration.BLACK_PLANKS.get()));
+        stairsBlock(Registration.RED_STAIRS.get(), blockTexture(Registration.RED_PLANKS.get()));
+        stairsBlock(Registration.GREEN_STAIRS.get(), blockTexture(Registration.GREEN_PLANKS.get()));
+        stairsBlock(Registration.BROWN_STAIRS.get(), blockTexture(Registration.BROWN_PLANKS.get()));
+        stairsBlock(Registration.BLUE_STAIRS.get(), blockTexture(Registration.BLUE_PLANKS.get()));
+        stairsBlock(Registration.PURPLE_STAIRS.get(), blockTexture(Registration.PURPLE_PLANKS.get()));
+        stairsBlock(Registration.CYAN_STAIRS.get(), blockTexture(Registration.CYAN_PLANKS.get()));
+        stairsBlock(Registration.LIGHT_GRAY_STAIRS.get(), blockTexture(Registration.LIGHT_GRAY_PLANKS.get()));
+        stairsBlock(Registration.GRAY_STAIRS.get(), blockTexture(Registration.GRAY_PLANKS.get()));
+        stairsBlock(Registration.PINK_STAIRS.get(), blockTexture(Registration.PINK_PLANKS.get()));
+        stairsBlock(Registration.LIME_STAIRS.get(), blockTexture(Registration.LIME_PLANKS.get()));
+        stairsBlock(Registration.YELLOW_STAIRS.get(), blockTexture(Registration.YELLOW_PLANKS.get()));
+        stairsBlock(Registration.LIGHT_BLUE_STAIRS.get(), blockTexture(Registration.LIGHT_BLUE_PLANKS.get()));
+        stairsBlock(Registration.MAGENTA_STAIRS.get(), blockTexture(Registration.MAGENTA_PLANKS.get()));
+        stairsBlock(Registration.ORANGE_STAIRS.get(), blockTexture(Registration.ORANGE_PLANKS.get()));
+        stairsBlock(Registration.WHITE_STAIRS.get(), blockTexture(Registration.WHITE_PLANKS.get()));
     }
 }
