@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "colortrees:purple_paint_roller"
+        },
+        {
+            "item": "minecraft:oak_stairs"
+        }
+    ],
+    "result": {
+        "item": "colortrees:purple_stairs"
+    }
+}
