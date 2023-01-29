@@ -435,5 +435,73 @@ public class CTRecipes extends RecipeProvider {
             .requires(Registration.WHITE_PAINT_ROLLER.get())
             .requires(Items.OAK_LEAVES)
             .save(consumer);
+
+        
+        
+        // Define recipes for Colored Stairs
+        ShapelessRecipeBuilder.shapeless(Registration.BLACK_STAIRS_ITEM.get())
+            .requires(Registration.BLACK_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.RED_STAIRS_ITEM.get())
+            .requires(Registration.RED_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.GREEN_STAIRS_ITEM.get())
+            .requires(Registration.GREEN_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.BROWN_STAIRS_ITEM.get())
+            .requires(Registration.BROWN_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.BLUE_STAIRS_ITEM.get())
+            .requires(Registration.BLUE_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.PURPLE_STAIRS_ITEM.get())
+            .requires(Registration.PURPLE_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.CYAN_STAIRS_ITEM.get())
+            .requires(Registration.CYAN_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.LIGHT_GRAY_STAIRS_ITEM.get())
+            .requires(Registration.LIGHT_GRAY_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.GRAY_STAIRS_ITEM.get())
+            .requires(Registration.GRAY_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.PINK_STAIRS_ITEM.get())
+            .requires(Registration.PINK_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.LIME_STAIRS_ITEM.get())
+            .requires(Registration.LIME_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.YELLOW_STAIRS_ITEM.get())
+            .requires(Registration.YELLOW_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.LIGHT_BLUE_STAIRS_ITEM.get())
+            .requires(Registration.LIGHT_BLUE_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.MAGENTA_STAIRS_ITEM.get())
+            .requires(Registration.MAGENTA_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.ORANGE_STAIRS_ITEM.get())
+            .requires(Registration.BLACK_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Registration.WHITE_STAIRS_ITEM.get())
+            .requires(Registration.BLACK_PAINT_ITEM.get())
+            .requires(Items.OAK_STAIRS)
+            .save(consumer);
     }
 }
