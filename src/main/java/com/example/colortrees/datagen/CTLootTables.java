@@ -84,5 +84,22 @@ public class CTLootTables implements LootTableSubProvider {
         builder.accept(Registration.MAGENTA_OAK_LEAVES.getId(), BaseLootTableProvider.createSimpleTable("magenta_oak_leaves", Registration.MAGENTA_OAK_LEAVES.get()));
         builder.accept(Registration.ORANGE_OAK_LEAVES.getId(), BaseLootTableProvider.createSimpleTable("orange_oak_leaves", Registration.ORANGE_OAK_LEAVES.get()));
         builder.accept(Registration.WHITE_OAK_LEAVES.getId(), BaseLootTableProvider.createSimpleTable("white_oak_leaves", Registration.WHITE_OAK_LEAVES.get()));
+
+        builder.accept(Registration.BLACK_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("black_stairs", Registration.BLACK_STAIRS.get()));
+        builder.accept(Registration.RED_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("red_stairs", Registration.RED_STAIRS.get()));
+        builder.accept(Registration.GREEN_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("green_stairs", Registration.GREEN_STAIRS.get()));
+        builder.accept(Registration.BROWN_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("brown_stairs", Registration.BROWN_STAIRS.get()));
+        builder.accept(Registration.BLUE_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("blue_stairs", Registration.BLUE_STAIRS.get()));
+        builder.accept(Registration.PURPLE_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("purple_stairs", Registration.PURPLE_STAIRS.get()));
+        builder.accept(Registration.CYAN_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("cyan_stairs", Registration.CYAN_STAIRS.get()));
+        builder.accept(Registration.LIGHT_GRAY_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("light_gray_stairs", Registration.LIGHT_GRAY_STAIRS.get()));
+        builder.accept(Registration.GRAY_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("gray_stairs", Registration.GRAY_STAIRS.get()));
+        builder.accept(Registration.PINK_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("pink_stairs", Registration.PINK_STAIRS.get()));
+        builder.accept(Registration.LIME_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("lime_stairs", Registration.LIME_STAIRS.get()));
+        builder.accept(Registration.YELLOW_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("yellow_stairs", Registration.YELLOW_STAIRS.get()));
+        builder.accept(Registration.LIGHT_BLUE_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("light_blue_stairs", Registration.LIGHT_BLUE_STAIRS.get()));
+        builder.accept(Registration.MAGENTA_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("magenta_stairs", Registration.MAGENTA_STAIRS.get()));
+        builder.accept(Registration.ORANGE_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("orange_stairs", Registration.ORANGE_STAIRS.get()));
+        builder.accept(Registration.WHITE_STAIRS.getId(), BaseLootTableProvider.createSimpleTable("white_stairs", Registration.WHITE_STAIRS.get()));
     }
 }

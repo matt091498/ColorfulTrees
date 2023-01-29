@@ -86,6 +86,23 @@ public class CTLanguageProvider extends LanguageProvider {
         add(Registration.ORANGE_OAK_LEAVES.get(), "Orange Leaves");
         add(Registration.WHITE_OAK_LEAVES.get(), "White Leaves");
 
+        add(Registration.BLACK_STAIRS.get(), "Black Stairs");
+        add(Registration.RED_STAIRS.get(), "Red Stairs");
+        add(Registration.GREEN_STAIRS.get(), "Green Stairs");
+        add(Registration.BROWN_STAIRS.get(), "Brown Stairs");
+        add(Registration.BLUE_STAIRS.get(), "Blue Stairs");
+        add(Registration.PURPLE_STAIRS.get(), "Purple Stairs");
+        add(Registration.CYAN_STAIRS.get(), "Cyan Stairs");
+        add(Registration.LIGHT_GRAY_STAIRS.get(), "Light Gray Stairs");
+        add(Registration.GRAY_STAIRS.get(), "Gray Stairs");
+        add(Registration.PINK_STAIRS.get(), "Pink Stairs");
+        add(Registration.LIME_STAIRS.get(), "Lime Stairs");
+        add(Registration.YELLOW_STAIRS.get(), "Yellow Stairs");
+        add(Registration.LIGHT_BLUE_STAIRS.get(), "Light Blue Stairs");
+        add(Registration.MAGENTA_STAIRS.get(), "Magenta Stairs");
+        add(Registration.ORANGE_STAIRS.get(), "Orange Stairs");
+        add(Registration.WHITE_STAIRS.get(), "White Stairs");
+
         add(Registration.BLACK_PAINT_ITEM.get(), "Black Paint");
         add(Registration.RED_PAINT_ITEM.get(), "Black Paint");
         add(Registration.GREEN_PAINT_ITEM.get(), "Black Paint");
